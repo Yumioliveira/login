@@ -17,6 +17,9 @@ grandes telas acima de 1200px
 
     section#login {
         width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     section#login > div#imagem {
@@ -28,8 +31,14 @@ grandes telas acima de 1200px
     section#login > div#formulario {
         float: right;
         width: 60%;
-    }
+        height: 400px;
+    } 
+
+
 }
+
+
+
 
 @media screen and (min-width: 992px) {
 
@@ -60,6 +69,15 @@ grandes telas acima de 1200px
     div#formulario {
         font-size: 1.2em;
     }
+   
+
+    div#formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+
 
 
 }
